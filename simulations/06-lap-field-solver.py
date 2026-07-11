@@ -155,18 +155,18 @@ ani = anim.FuncAnimation(fig, update, frames=n_frames,
 plt.tight_layout()
 plt.show()
 
-# # saving last frame state for particle tracker code
-# final_phi = phi_frames[-1]
-# Ex_final = -np.gradient(final_phi, h, axis=1)
-# Ey_final = -np.gradient(final_phi, h, axis=0)
+# saving last frame state for particle tracker code
+final_phi = phi_frames[-1]
+Ex_final = -np.gradient(final_phi, h, axis=1)
+Ey_final = -np.gradient(final_phi, h, axis=0)
 
-# print("Exporting data...")
-# np.savez_compressed('dipole_field.npz',
-#                     Ex=Ex_final,
-#                     Ey=Ey_final,
-#                     N=N,
-#                     h=h)
-# print("Saved to dipole_field.npz.")
+print("Exporting data...")
+np.savez_compressed('dipole_field.npz',
+                    Ex=Ex_final,
+                    Ey=Ey_final,
+                    N=N,
+                    h=h)
+print("Saved to dipole_field.npz.")
 
 
 # update(30)

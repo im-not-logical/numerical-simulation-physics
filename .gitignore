@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+__pycache__/
+
+# Python cache / compiled files
+*.pyc
+*.pyo
+*.pyd
+
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Images (your requirement)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Documents (your requirement)
+*.pdf
+*.docx
+*.pptx
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
