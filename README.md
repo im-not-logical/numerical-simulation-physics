@@ -61,8 +61,6 @@ uv run simulations/01-sho.py
 python simulations/01-sho.py
 ```
 
-> **Note:** `07-lap-particle-tracker.py` reads a `dipole_field.npz` file that is meant to be exported by `06-lap-field-solver.py`. That export block is currently commented out in `06-lap-field-solver.py` — uncomment it (and the matching `np.savez_compressed(...)` call) and run script 06 once before running script 07.
-
 ## Repository structure
 
 ```
