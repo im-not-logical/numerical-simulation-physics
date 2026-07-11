@@ -1,4 +1,5 @@
 # Simulating Concepts of Physics in Python using Numerical Methods
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 A collection of Python scripts that numerically simulate classical, electromagnetic, and quantum systems — each paired with an animation and, wherever possible, a comparison against the analytic solution. Written for a project in the 6th semester Experiential Laboratory.
 
@@ -73,4 +74,4 @@ python simulations/01-sho.py
 
 ## License
 
-Not yet specified. Add a `LICENSE` file (MIT is a common default for teaching/demo code like this) if you want to make reuse terms explicit.
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
